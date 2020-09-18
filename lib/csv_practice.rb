@@ -22,15 +22,6 @@ def replace_medal(data)
   end
 end
 
-def total_medals_per_team2(athlete_array_of_hashes)
-  medal_count = Hash.new(0)
-  athlete_array_of_hashes.each do |athlete_hash|
-    if athlete_hash["Medal"] != "NA"
-      medal_count[athlete_hash["Team"]] += 1
-    end
-    return medal_count
-  end
-
 def total_medals_per_team(olympic_data)
   teams = []
   olympic_data.each do |hash|
