@@ -92,7 +92,7 @@ describe "CSV and Enumerables Exercise" do
     end
   end
 
-  xdescribe 'get_all_gold_medalists' do
+  describe 'get_all_gold_medalists' do
     
     it 'returns an array of gold medalists' do
       # Arrange
